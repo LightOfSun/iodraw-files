@@ -26,28 +26,28 @@
           <mxGeometry x="1077" y="1319" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-62" value="整合异常信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1392" y="1319" width="156" height="49" as="geometry" />
+          <mxGeometry x="1320" y="1318" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-63" value="生成预警摘要" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1598" y="1319" width="156" height="49" as="geometry" />
+          <mxGeometry x="1526" y="1318" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-64" value="通过后台服务自动推送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1804" y="1269" width="220" height="49" as="geometry" />
+          <mxGeometry x="1732" y="1268" width="220" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-65" value="相关负责人 elink 账号" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2074" y="1269" width="216" height="49" as="geometry" />
+          <mxGeometry x="2002" y="1268" width="216" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-66" value="异常数据通过API推送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1809" y="1368" width="211" height="49" as="geometry" />
+          <mxGeometry x="1737" y="1367" width="211" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-67" value="大瓦特智能体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2104" y="1368" width="156" height="49" as="geometry" />
+          <mxGeometry x="2032" y="1367" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-68" value="进行数据分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="1368" width="156" height="49" as="geometry" />
+          <mxGeometry x="2268" y="1367" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-69" value="生成治理策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2546" y="1368" width="156" height="49" as="geometry" />
+          <mxGeometry x="2474" y="1367" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kkGabwgcMq1RQK00q4v-55" target="0kkGabwgcMq1RQK00q4v-56">
           <mxGeometry relative="1" as="geometry">
@@ -110,7 +110,7 @@
         <mxCell id="0kkGabwgcMq1RQK00q4v-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kkGabwgcMq1RQK00q4v-63" target="0kkGabwgcMq1RQK00q4v-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1779" y="1294" />
+              <mxPoint x="1707" y="1293" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -122,7 +122,7 @@
         <mxCell id="0kkGabwgcMq1RQK00q4v-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="0kkGabwgcMq1RQK00q4v-63" target="0kkGabwgcMq1RQK00q4v-66">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1779" y="1392" />
+              <mxPoint x="1707" y="1391" />
             </Array>
           </mxGeometry>
         </mxCell>
