@@ -14,16 +14,16 @@
           <mxGeometry x="649" y="1271" width="145" height="145" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-58" value="台区出现运行异常" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="927" y="1060" width="177" height="177" as="geometry" />
+          <mxGeometry x="850" y="1060" width="177" height="177" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-59" value="设备停电" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="959" y="1287" width="113" height="113" as="geometry" />
+          <mxGeometry x="882" y="1287" width="113" height="113" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-60" value="负荷或电压超标" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="935" y="1449" width="161" height="161" as="geometry" />
+          <mxGeometry x="858" y="1449" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-61" value="系统自动触发预警" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1154" y="1319" width="188" height="49" as="geometry" />
+          <mxGeometry x="1077" y="1319" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0kkGabwgcMq1RQK00q4v-62" value="整合异常信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1392" y="1319" width="156" height="49" as="geometry" />
@@ -81,7 +81,7 @@
         <mxCell id="0kkGabwgcMq1RQK00q4v-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.42;entryY=-0.01;rounded=0;" edge="1" parent="1" source="0kkGabwgcMq1RQK00q4v-58" target="0kkGabwgcMq1RQK00q4v-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1129" y="1148" />
+              <mxPoint x="1052" y="1148" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,7 +93,7 @@
         <mxCell id="0kkGabwgcMq1RQK00q4v-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.42;entryY=0.99;rounded=0;" edge="1" parent="1" source="0kkGabwgcMq1RQK00q4v-60" target="0kkGabwgcMq1RQK00q4v-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1129" y="1530" />
+              <mxPoint x="1052" y="1530" />
             </Array>
           </mxGeometry>
         </mxCell>
