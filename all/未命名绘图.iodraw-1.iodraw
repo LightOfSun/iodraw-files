@@ -362,27 +362,8 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-176" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;30 ≤ R_台区 &amp;lt; 65&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2829" y="1345" width="133" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-178" target="RZV44nI7FpgGCSOGNcCN-181">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2866.0588235294117" y="1843.0588235294113" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-178" value="生成报告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2729" y="1650" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-181" target="RZV44nI7FpgGCSOGNcCN-182">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-180" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="RZV44nI7FpgGCSOGNcCN-179">
-          <mxGeometry x="-0.264" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-181" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;是否所有城市计算完毕？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2859.75" y="1792" width="248.5" height="171" as="geometry" />
-        </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-182" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;输出全省各州市风险排名榜单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2812.5" y="2064" width="343" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-183" value="&lt;span style=&quot;white-space: nowrap; color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px;&quot;&gt;强制标记为高风险&lt;/span&gt;&lt;br style=&quot;white-space: nowrap; color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: nowrap; color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px;&quot;&gt;R_区域 = 95&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2634" y="1037" width="148" height="77" as="geometry" />
