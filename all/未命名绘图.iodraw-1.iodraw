@@ -228,8 +228,14 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-50" value="开始区域风险分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="9" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-51" target="RZV44nI7FpgGCSOGNcCN-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-51" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:6pt; color:#303030;&quot;&gt;输入全省所有台区近三个月数据&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="149" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-53" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="289" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
