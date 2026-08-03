@@ -253,7 +253,7 @@
           <mxGeometry x="2733" y="292" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-130" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;统计不平衡天数&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;P4 = 严重&lt;/span&gt;&lt;em style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;2 + 一般&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;1&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2927" y="295" width="150" height="60" as="geometry" />
+          <mxGeometry x="2928" y="292" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-131" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;统计超容次数&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;P5 = 严重&lt;/span&gt;&lt;em style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;2 + 一般&lt;/em&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;1&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3113" y="292" width="150" height="60" as="geometry" />
@@ -266,6 +266,9 @@
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.48;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-125" target="RZV44nI7FpgGCSOGNcCN-129">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-139" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1002" y="468" width="974" height="592" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
