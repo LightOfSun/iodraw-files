@@ -223,7 +223,7 @@
           <mxGeometry x="1180" y="1341" width="148" height="77" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-119" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;保留原计算值&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1804" y="1418" width="148" height="77" as="geometry" />
+          <mxGeometry x="1620" y="1343" width="148" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
