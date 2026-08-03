@@ -267,8 +267,8 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.48;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-125" target="RZV44nI7FpgGCSOGNcCN-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-139" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2280" y="219.5" width="1261" height="211" as="geometry" />
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-139" value="" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2274" y="419" width="1261" height="211" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
