@@ -396,7 +396,12 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-97" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;30 ≤ R_区域 &amp;lt; 65&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1375" y="1649" width="133" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-101" value="生成保供" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1356.5294117647059" y="2043.2157341452207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-101" value="生成报告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1954" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
