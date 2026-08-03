@@ -351,8 +351,8 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-86" value="&lt;font face=&quot;trebuchet ms, verdana, arial, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;地图映射风险等级&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1405" y="1432" width="147" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-89" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1209" y="1593" width="80" height="80" as="geometry" />
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-89" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;R_区域 &amp;lt; 30&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="1593" width="119" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
