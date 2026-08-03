@@ -242,7 +242,7 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-53" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:6pt; color:#303030;&quot;&gt;后台清洗并计算每个台区的个体风险R值&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="289" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-57">
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-57" target="RZV44nI7FpgGCSOGNcCN-81">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1472.0588235294117" y="1159.0588235294115" as="targetPoint" />
           </mxGeometry>
@@ -320,7 +320,7 @@
           <mxGeometry x="1174" y="948" width="273" height="84" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-81" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1304" y="1221" width="80" height="80" as="geometry" />
+          <mxGeometry x="1433" y="1174" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
