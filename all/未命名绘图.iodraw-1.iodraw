@@ -336,11 +336,14 @@
             <mxPoint x="1800" y="1174" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-85" target="RZV44nI7FpgGCSOGNcCN-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-85" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;保留原计算值&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1635" y="1345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-86" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1407" y="1343" width="120" height="60" as="geometry" />
+          <mxGeometry x="1396" y="1439" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
