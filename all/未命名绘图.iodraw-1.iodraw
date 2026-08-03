@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="6S7_u-a9s9QumH6EVNtQ">
-    <mxGraphModel dx="1427" dy="856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3033" dy="1820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,17 +396,16 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-97" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;30 ≤ R_区域 &amp;lt; 65&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1375" y="1649" width="133" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-101" target="RZV44nI7FpgGCSOGNcCN-106">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-101" target="RZV44nI7FpgGCSOGNcCN-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1412.0588235294117" y="2147.0588235294113" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-101" value="生成报告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1954" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-106" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="2147" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-108" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;30 ≤ R_区域 &amp;lt; 65&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="1659" width="133" height="93" as="geometry" />
+          <mxGeometry x="1334" y="2125" width="133" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
