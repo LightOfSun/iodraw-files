@@ -404,8 +404,14 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-101" value="生成报告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1954" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-108" target="RZV44nI7FpgGCSOGNcCN-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-108" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;是否所有城市计算完毕？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1412.5" y="2084" width="248.5" height="171" as="geometry" />
+          <mxGeometry x="1405.75" y="2096" width="248.5" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-109" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2402.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
