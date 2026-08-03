@@ -325,6 +325,9 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-81" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;特殊干预规则检查&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1372" y="1132" width="214" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-82" target="RZV44nI7FpgGCSOGNcCN-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-82" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;强制标记为高风险&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;R_区域 = 95&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1207" y="1343" width="120" height="60" as="geometry" />
         </mxCell>
@@ -335,6 +338,9 @@
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-85" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;保留原计算值&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1635" y="1345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-86" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1407" y="1343" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
