@@ -1,0 +1,228 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="6S7_u-a9s9QumH6EVNtQ">
+    <mxGraphModel dx="1453" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="804" y="20" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-2" value="输入: List&amp;lt;台区数据&amp;gt;" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="119" width="241" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-3" value="初始化 result_list = []" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="743" y="409" width="214" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-4" value="按 city 字段对所有台区进行分组" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="729" y="508" width="242" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-5" value="For each 城市分组 group" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="738" y="800" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-6" value="计算基础统计量: N, H, U_total" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1149" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-7" value="计算加权平均风险 (Severity)" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="408" y="1362" width="194" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-8" value="IF U_total == 0" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="428" y="1606" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-9" value="Severity = avg(group.R_value)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1851" width="199" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-10" value="Severity = sum(group.R_value * group.user_count) / U_total" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="528" y="1834" width="208" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-11" value="计算高风险占比百分制 (Prevalence) = (H / N) * 100" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1985" width="259" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-12" value="综合计算区域风险指数 (R_city) = (Severity * 0.7) + (Prevalence * 0.3)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="2101" width="255" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-13" value="R_city = min(R_city, 100)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2235" width="239" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-14" value="硬性干预规则: IF group.中压停电总次数 &gt;= 3 OR group.重大敏感投诉事件 == True" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347" y="2334" width="315" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-15" value="依据 R_city 映射等级" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2722" width="199" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-16" value="等级 = &#39;高风险&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="383" y="2993" width="243" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-17" value="O" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2993" width="71" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-18" value="将 {城市, 最终得分, 等级, Severity, Prevalence, 高风险台区明细} 加入 result_list" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="177" y="3092" width="242" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-19" value="Q" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="141" y="2993" width="73" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-20" value="R" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="263" y="2993" width="70" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-21" value="所有城市分组处理完毕?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="758" y="1075" width="215" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-22" value="按最终得分降序排列 result_list" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="763" y="1426" width="204" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-23" value="输出: List&amp;lt;城市风险结果&amp;gt; (全省风险地图)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="744" y="1642" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-24" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="819" y="1860" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-1" target="RZV44nI7FpgGCSOGNcCN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-2" target="RZV44nI7FpgGCSOGNcCN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-3" target="RZV44nI7FpgGCSOGNcCN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-4" target="RZV44nI7FpgGCSOGNcCN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-5" target="RZV44nI7FpgGCSOGNcCN-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-6" target="RZV44nI7FpgGCSOGNcCN-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-7" target="RZV44nI7FpgGCSOGNcCN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-32" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-8" target="RZV44nI7FpgGCSOGNcCN-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-33" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-8" target="RZV44nI7FpgGCSOGNcCN-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.22;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-9" target="RZV44nI7FpgGCSOGNcCN-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="1960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.78;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-10" target="RZV44nI7FpgGCSOGNcCN-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="1960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-11" target="RZV44nI7FpgGCSOGNcCN-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-12" target="RZV44nI7FpgGCSOGNcCN-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-13" target="RZV44nI7FpgGCSOGNcCN-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-39" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-14" target="RZV44nI7FpgGCSOGNcCN-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-40" value="R_city &gt;= 65" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-15" target="RZV44nI7FpgGCSOGNcCN-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.13;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-17" target="RZV44nI7FpgGCSOGNcCN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="3067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.17;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-19" target="RZV44nI7FpgGCSOGNcCN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="177" y="3067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-20" target="RZV44nI7FpgGCSOGNcCN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.06;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-16" target="RZV44nI7FpgGCSOGNcCN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="3067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.37;entryX=1;entryY=0.9;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-18" target="RZV44nI7FpgGCSOGNcCN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1021" y="3067" />
+              <mxPoint x="1021" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-5" target="RZV44nI7FpgGCSOGNcCN-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-47" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-21" target="RZV44nI7FpgGCSOGNcCN-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-22" target="RZV44nI7FpgGCSOGNcCN-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-23" target="RZV44nI7FpgGCSOGNcCN-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
