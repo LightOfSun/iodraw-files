@@ -407,7 +407,7 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-108" target="RZV44nI7FpgGCSOGNcCN-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-111" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RZV44nI7FpgGCSOGNcCN-110">
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-111" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="RZV44nI7FpgGCSOGNcCN-110">
           <mxGeometry x="-0.264" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
