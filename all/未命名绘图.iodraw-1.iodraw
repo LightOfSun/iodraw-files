@@ -251,6 +251,9 @@
         <mxCell id="RZV44nI7FpgGCSOGNcCN-64" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;按行政区域分组&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1440" y="500" width="180" height="103" as="geometry" />
         </mxCell>
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-65" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1284" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
