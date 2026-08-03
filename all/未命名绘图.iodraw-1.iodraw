@@ -352,13 +352,17 @@
           <mxGeometry x="1405" y="1432" width="147" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZV44nI7FpgGCSOGNcCN-89" target="RZV44nI7FpgGCSOGNcCN-93">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1162" y="1633" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RZV44nI7FpgGCSOGNcCN-89" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space: nowrap;&quot;&gt;R_区域 &amp;lt; 30&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1209" y="1593" width="119" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RZV44nI7FpgGCSOGNcCN-93" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1104" y="1803" width="120" height="60" as="geometry" />
+        <mxCell id="RZV44nI7FpgGCSOGNcCN-93" value="低风险" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1102" y="1834" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
