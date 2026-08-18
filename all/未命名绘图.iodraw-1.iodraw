@@ -62,10 +62,10 @@
           <mxGeometry x="646" y="1288" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-21" value="Agent汇总器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="689" y="1454" width="150" height="49" as="geometry" />
+          <mxGeometry x="689" y="1700" width="150" height="49" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-22" value="最终回答输出" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="697" y="1553" width="133" height="34" as="geometry" />
+          <mxGeometry x="697" y="1799" width="133" height="34" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-4" target="MK_0c1JdCjYuQCKqFlEJ-5">
           <mxGeometry relative="1" as="geometry">
