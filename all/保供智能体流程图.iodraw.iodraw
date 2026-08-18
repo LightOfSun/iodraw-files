@@ -81,7 +81,7 @@
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-19" value="返回精确查询结果&#xa;（仅数据，不生成策略）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="853" y="1366" width="236" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-21" value="Agent汇总器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-21" value="Agent汇总器&#xa;生成报告" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="689" y="1700" width="150" height="49" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-22" value="最终回答输出" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
