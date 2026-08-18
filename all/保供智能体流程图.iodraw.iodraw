@@ -49,10 +49,10 @@
           <mxGeometry x="85" y="1192" width="253" height="101" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-9" value="混合检索 + Rerank重排序" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="92" y="1440" width="239" height="49" as="geometry" />
+          <mxGeometry x="92" y="1338" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-10" value="返回通用知识、政策定义、历史案例" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="85" y="1548" width="252" height="66" as="geometry" />
+          <mxGeometry x="85" y="1432" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-11" value="调用工具: 精确数据查询工作流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="875" y="565" width="204" height="66" as="geometry" />
