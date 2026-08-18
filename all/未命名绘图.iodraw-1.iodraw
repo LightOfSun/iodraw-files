@@ -13,6 +13,9 @@
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="999" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-2" value="⚙️ 工具2: 结构化数据查询工作流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -89,13 +92,6 @@
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-5" target="MK_0c1JdCjYuQCKqFlEJ-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-25" value="判断为概念/政策/常识类" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-6" target="MK_0c1JdCjYuQCKqFlEJ-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="201" y="426" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-7" target="MK_0c1JdCjYuQCKqFlEJ-8">
