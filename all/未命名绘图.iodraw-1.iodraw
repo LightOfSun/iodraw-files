@@ -99,11 +99,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-29" value="判断为查具体数值/台账" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-6" target="MK_0c1JdCjYuQCKqFlEJ-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-11" target="MK_0c1JdCjYuQCKqFlEJ-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
