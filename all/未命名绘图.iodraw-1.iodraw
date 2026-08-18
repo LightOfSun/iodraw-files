@@ -7,6 +7,9 @@
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-1" value="Dify Agent 节点作用域" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="90" width="1343" height="1580" as="geometry" />
         </mxCell>
+        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-2" target="MK_0c1JdCjYuQCKqFlEJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-2" value="⚙️ 工具2: 结构化数据查询工作流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="590" y="540" width="755" height="917" as="geometry" />
         </mxCell>
@@ -172,11 +175,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-18" target="MK_0c1JdCjYuQCKqFlEJ-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-19" target="MK_0c1JdCjYuQCKqFlEJ-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
