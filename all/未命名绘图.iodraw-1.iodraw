@@ -19,6 +19,9 @@
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-5" value="Agent智能体节点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="679" y="129" width="182" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-6" target="MK_0c1JdCjYuQCKqFlEJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-6" value="Agent推理与&#xa;工具路由决策" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="689" y="227" width="162" height="162" as="geometry" />
         </mxCell>
@@ -177,9 +180,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-19" target="MK_0c1JdCjYuQCKqFlEJ-21">
+        <mxCell id="MK_0c1JdCjYuQCKqFlEJ-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="210" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MK_0c1JdCjYuQCKqFlEJ-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="MK_0c1JdCjYuQCKqFlEJ-21" target="MK_0c1JdCjYuQCKqFlEJ-22">
