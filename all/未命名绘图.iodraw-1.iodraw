@@ -19,6 +19,11 @@
         <mxCell id="neG1JBX25au4tg7REfzy-5" value="开始: 触发保供策略需求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="128" y="45" width="231" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="neG1JBX25au4tg7REfzy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="neG1JBX25au4tg7REfzy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="neG1JBX25au4tg7REfzy-6" value="调用知识库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="174" y="143" width="140" height="48" as="geometry" />
         </mxCell>
