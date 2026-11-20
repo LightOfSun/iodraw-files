@@ -16,13 +16,19 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="430" as="sourcePoint" />
             <mxPoint x="430" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="430" />
+              <mxPoint x="380" y="431" />
+              <mxPoint x="431" y="431" />
+              <mxPoint x="431" y="430" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-8" value="&lt;div&gt;台区&lt;/div&gt;&lt;div&gt;mk_pg_ta&lt;/div&gt;&lt;div&gt;TA_ID主键TA_NO/ TA_NAME&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="390" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-9" value="&lt;div&gt;线路线段&lt;/div&gt;&lt;div&gt;MK_PG_LINE&lt;/div&gt;&lt;div&gt;LINE_SEGM_ID主键&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="130" height="80" as="geometry" />
+          <mxGeometry x="230" y="390" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
