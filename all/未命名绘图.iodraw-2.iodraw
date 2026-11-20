@@ -34,7 +34,7 @@
           <mxGeometry x="130" y="550" width="145" height="145" as="geometry" />
         </mxCell>
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-19" value="&lt;div&gt;mk_pg_subs_line_rela&lt;/div&gt;&lt;div&gt;变电站-线段关系表&lt;/div&gt;&lt;div&gt;SUBS_ID+LINE_SEGM_ID&lt;/div&gt;&lt;div&gt;CUR_OPER_MODE_FLAG运行方式&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="360" y="580" width="150" height="150" as="geometry" />
+          <mxGeometry x="360" y="570" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
