@@ -21,6 +21,9 @@
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42W-w4dLa1E4Tt5xKLBY-9" target="42W-w4dLa1E4Tt5xKLBY-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="42W-w4dLa1E4Tt5xKLBY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="42W-w4dLa1E4Tt5xKLBY-9" target="42W-w4dLa1E4Tt5xKLBY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-9" value="&lt;div&gt;线路线段&lt;/div&gt;&lt;div&gt;MK_PG_LINE&lt;/div&gt;&lt;div&gt;LINE_SEGM_ID主键&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="390" width="130" height="80" as="geometry" />
         </mxCell>
