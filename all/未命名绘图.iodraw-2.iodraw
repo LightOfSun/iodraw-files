@@ -33,8 +33,14 @@
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-10" value="&lt;div&gt;变电站&lt;/div&gt;&lt;div&gt;MK_PG_SUBS&lt;/div&gt;&lt;div&gt;SUBS_ID主键SUBS_NO/ SUBS_NAME&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="505" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="42W-w4dLa1E4Tt5xKLBY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="42W-w4dLa1E4Tt5xKLBY-11" target="42W-w4dLa1E4Tt5xKLBY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="42W-w4dLa1E4Tt5xKLBY-11" value="&lt;div&gt;变电站&lt;/div&gt;&lt;div&gt;MK_PG_SUBS&lt;/div&gt;&lt;div&gt;SUBS_ID主键SUBS_NO/ SUBS_NAME&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="520" width="130" height="80" as="geometry" />
+          <mxGeometry x="630" y="390" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42W-w4dLa1E4Tt5xKLBY-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
